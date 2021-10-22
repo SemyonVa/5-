@@ -1,0 +1,15 @@
+g=dict()
+i=1 
+n=input("число n")
+a=int(input("сколько элементов содержит список"))
+while i<=a:
+    g[i]=input()
+    i=i+1
+print(g)
+i=1
+print('подходят эти числа:')
+while i<=a:
+    if g[i]>n:
+        print(g[i])
+    i=i+1
+
